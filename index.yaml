@@ -3,7 +3,29 @@ entries:
   nginx:
   - apiVersion: v1
     appVersion: 1.19.1
-    created: "2020-07-23T10:22:55.782047158+08:00"
+    created: "2020-07-27T10:45:59.930526863+08:00"
+    description: Chart for the nginx server
+    digest: 446b83aff0a900698a42b0ef04d1d38d1f93822336d3186746fe6ad3b71c5a84
+    home: http://www.nginx.org
+    icon: https://bitnami.com/assets/stacks/nginx/img/nginx-stack-220x234.png
+    keywords:
+    - nginx
+    - http
+    - web
+    - www
+    - reverse proxy
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: nginx
+    sources:
+    - https://github.com/bitnami/bitnami-docker-nginx
+    urls:
+    - https://jjq1998.github.io/helm-chart/nginx-6.0.3.tgz
+    version: 6.0.3
+  - apiVersion: v1
+    appVersion: 1.19.1
+    created: "2020-07-27T10:45:59.928945863+08:00"
     description: Chart for the nginx server
     digest: 550c01bef3c2f72a83060450b7bc1d9dc8bdca3932628d9d5e1332585f467cb7
     home: http://www.nginx.org
@@ -25,7 +47,7 @@ entries:
     version: 6.0.2
   - apiVersion: v1
     appVersion: 1.19.0
-    created: "2020-07-23T10:22:55.780322221+08:00"
+    created: "2020-07-27T10:45:59.926742855+08:00"
     description: Chart for the nginx server
     digest: f4d0071514315a2df5c7dc6c9754f38ccc6f4206620c19c69ed0b462a6e48820
     home: http://www.nginx.org
@@ -47,7 +69,7 @@ entries:
     version: 6.0.1
   - apiVersion: v1
     appVersion: 1.19.0
-    created: "2020-07-23T10:22:55.778601207+08:00"
+    created: "2020-07-27T10:45:59.921783366+08:00"
     description: Chart for the nginx server
     digest: b93ad6cc6d3c6eac2704da0965d23a52cf3eb56c7ee1561c9ca3091c21d65061
     home: http://www.nginx.org
@@ -67,4 +89,4 @@ entries:
     urls:
     - https://jjq1998.github.io/helm-chart/nginx-6.0.0.tgz
     version: 6.0.0
-generated: "2020-07-23T10:22:55.776810128+08:00"
+generated: "2020-07-27T10:45:59.918699596+08:00"
